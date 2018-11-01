@@ -67,8 +67,17 @@ h2 {
 	font-size: 50px;
 }
 
-.container {
+#main {
 	max-width: 800px;
+}
+
+#footer {
+	max-width: 900px;
+	color: #646464;
+}
+
+#email {
+	font-weight: bold;
 }
 
 .project-icon {
@@ -92,9 +101,14 @@ h2 {
 	font-size: 25px;
 }
 
+.fa-linkedin {
+	padding-right: 10px;
+}
+
 b {
 	font-weight: bold;
 }
+
 
 @media (min-width: 992px) {
   body {
