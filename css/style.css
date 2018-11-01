@@ -6,11 +6,13 @@
  @font-face {
   font-family: Finland;
   src: url("../fonts/Finland Rounded Regular.otf");
+  font-weight: normal;
  }
 
  @font-face {
 	font-family: Finland;
     src: url("../fonts/Finland Rounded Italic.otf");
+    font-weight: normal;
     font-style: italic;
 }
 
@@ -81,10 +83,19 @@ h2 {
 	opacity: 1;
 }
 
-/*.project-description {
-	max-width: 200px;
+.project-description {
+	font-weight: normal;
+	font-size: 27px;
 }
-*/
+
+.intro {
+	font-size: 25px;
+}
+
+b {
+	font-weight: bold;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
