@@ -42,6 +42,11 @@ body {
   font-size: 25px;
   font-family: Finland;
   color: #9b9595;
+  line-height: 20px;
+  background-image: url("../img/mountain.jpg");
+  background-size: fill;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1 {
@@ -59,9 +64,21 @@ h2 {
 	color: #646464;
 	font-size: 50px;
 }
-.rounded-circle {
+
+.container {
+	max-width: 800px;
+}
+
+.project-icon {
 	height: 200px;
 	width: 200px;
+	
+	opacity: 0.7;
+}
+
+.project-icon:hover {
+	background-color: #f1c13f;
+	opacity: 1;
 }
 
 /*.project-description {
