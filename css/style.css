@@ -3,11 +3,62 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-round-about/blob/master/LICENSE)
  */
+ @font-face {
+  font-family: Finland;
+  src: url("../fonts/Finland Rounded Regular.otf");
+ }
+
+ @font-face {
+	font-family: Finland;
+    src: url("../fonts/Finland Rounded Italic.otf");
+    font-style: italic;
+}
+
+ @font-face {
+    font-family: Finland;
+    src: url("../fonts/Finland Rounded Bold.otf");
+    font-weight: bold;
+}
+ @font-face {
+    font-family: Finland;
+    src: url("../fonts/Finland Rounded Bold Italic.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+ @font-face {
+    font-family: Finland;
+    src: url("../fonts/Finland Rounded Thin.otf");
+    font-weight: lighter;
+}
+ @font-face {
+    font-family: Finland;
+    src: url("../fonts/Finland Rounded Thin Italic.otf");
+    font-weight: lighter;
+    font-style: italic;
+}
 
 body {
   padding-top: 54px;
+  font-size: 25px;
+  font-family: Finland;
+  color: #9b9595;
 }
 
+h1 {
+	font-family: Finland;
+	font-weight: bold;
+	font-style: italic;
+	color: #f5b145;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: Finland;
+	font-weight: bold;
+	font-style: italic;
+	color: #646464;
+	font-size: 50px;
+}
 .rounded-circle {
 	height: 200px;
 	width: 200px;
