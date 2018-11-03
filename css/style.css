@@ -58,6 +58,10 @@ a:hover {
 	color: #f5b145;
 }
 
+i:hover {
+	color: #9b9595;
+}
+
 h1 {
 	font-family: Finland;
 	font-weight: bold;
@@ -93,7 +97,7 @@ h2 {
 
 #navline {
 	background-color: #646464;
-	width: 10px;
+	width: 8px;
 }
 
 
