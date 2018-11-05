@@ -44,10 +44,13 @@ body {
   font-family: Finland;
   color: #9b9595;
   line-height: 20px;
-  background-image: url("../img/mountain.jpg");
-  background-size: fill;
+  background-color: #f8f3ee;
+  background-image: url("../img/seattlebg2.jpg");
+  background-size: contain;
   background-attachment: fixed;
-  background-position: center;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 80%;
 }
 
 a {
@@ -55,7 +58,7 @@ a {
 }
 
 a:hover {
-	color: #f5b145;
+	color: #9b9595;
 }
 
 i:hover {
@@ -99,8 +102,11 @@ h2 {
 	background-color: #646464;
 	width: 8px;
 }
-
-
+		
+.active {
+	color: #f5b145;
+	pointer-events: none;
+}
 
 #footer {
 	max-width: 900px;
