@@ -39,17 +39,49 @@
     font-style: italic;
 }
 
+#bg-front {
+    background-image: url("../img/seattlebg_front.png");
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#bg-back {
+    background-image: url("../img/seattlebg_back.jpg");
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -2;
+}
+
+
+html {
+	height: 100%;
+}
+
 body {
   font-size: 25px;
   font-family: Finland;
   color: #9b9595;
+  height: 100%;
   line-height: 20px;
   background-color: #f6f5f5;
-  background-image: url("../img/seattlebg_back.jpg");
+/*  background-image: url("../img/seattlebg_back.jpg");
   background-size: contain;
   background-attachment: fixed;
   background-position: right bottom;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   background-size: 80%;
 }
 
