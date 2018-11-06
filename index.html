@@ -17,6 +17,8 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
+    <script src="script.js"></script>
+
     <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">  
     <link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">  
     <link rel="icon" type="image/png" href="img/favicon.png" sizes="96x96">  
@@ -52,8 +54,11 @@
         </div>
       </div>
     </nav> -->
-    <div id="bg-back"></div>
-    <div id="bg-front"></div>
+    <div id="bg">
+      <div class="layer-1 layer" id="bg-back" data-depth="0.1" data-type="parallax"></div>
+      <div class="layer-2 layer" id="bg-front" data-depth="0.05" data-type="parallax"></div>
+    </div>
+
 
     <div class="container d-flex justify-content-end" id="header">
       <div id = "navline">
@@ -107,6 +112,7 @@
         <a href="http://www.linkedin.com/in/lawrence-zheng-500416137" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/lawrence-zheng" target="_blank"><i class="fab fa-github"></i></a>
       </div>
+
       <!-- /.container -->
     </footer>
 
