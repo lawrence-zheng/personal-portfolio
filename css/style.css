@@ -30,12 +30,12 @@
  @font-face {
     font-family: Finland;
     src: url("../fonts/Finland Rounded Thin.otf");
-    font-weight: lighter;
+    font-weight: 100;
 }
  @font-face {
     font-family: Finland;
     src: url("../fonts/Finland Rounded Thin Italic.otf");
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
 }
 
@@ -104,6 +104,7 @@ html {
 body {
   font-size: 25px;
   font-family: Finland;
+  font-weight: normal;
   color: #9b9595;
   height: 100%;
   line-height: 20px;
@@ -122,6 +123,10 @@ a {
 
 a:hover {
 	color: #9b9595;
+}
+
+b {
+  font-weight: bold;
 }
 
 i:hover {
@@ -214,12 +219,17 @@ h2 {
 }
 
 .project-description {
-	font-weight: normal;
+	font-weight: 100;
 	font-size: 27px;
 }
 
+.project-description > b {
+  font-weight: normal;
+}
+
 .intro {
-	font-size: 25px;
+	font-size: 28px;
+  margin-bottom: 2.5rem;
 }
 
 .fa-linkedin {
@@ -228,9 +238,7 @@ h2 {
 
 
 
-b {
-	font-weight: bold;
-}
+
 
 
 @media (min-width: 992px) {

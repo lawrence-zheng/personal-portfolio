@@ -14,7 +14,7 @@
       layer.style.transform = translate3d;
     }
     $("#bg-front").fadeIn(1000)
-    window.setTimeout($("#bg-back").fadeIn(1500), 1000)
+    $("#bg-back").fadeIn(1500)
       
   };
 
