@@ -65,6 +65,11 @@
   z-index: -2;
 }
 */
+
+.layer {
+  display: none;
+}
+
 #bg-front {
     background-image: url("../img/seattlebg_front_nofence_nobottom.png");
     height: 100%;
