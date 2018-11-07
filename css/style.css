@@ -152,6 +152,15 @@ h1 {
 }
 
 h2 {
+  font-family: Finland;
+  font-weight: bold;
+  font-style: italic;
+  color: #f5b145;
+  font-size: 50px;
+  line-height: 50px;  
+}
+
+h3 {
 	font-family: Finland;
 	font-weight: bold;
 	font-style: italic;
@@ -245,9 +254,33 @@ h2 {
 	padding-right: 10px;
 }
 
+.textbox {
+  line-height: 26px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  padding-left: 5px;
+} 
 
 
+/* about page specific */
 
+#img-row {
+  max-width: 300px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+} 
+
+#personal-photo {
+
+}
+
+
+#text-row {
+  padding: 30px;
+}
 
 
 @media (min-width: 992px) {
