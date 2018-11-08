@@ -115,6 +115,7 @@ body {
   background-position: right bottom;
   background-repeat: no-repeat;*/
   background-size: 80%;
+  overflow-y: scroll
 }
 
 a {
@@ -123,7 +124,9 @@ a {
 
 a:hover {
 	color: #9b9595;
+  text-decoration: none;
 }
+
 
 b {
   font-weight: bold;
@@ -201,6 +204,14 @@ h4 {
 	pointer-events: none;
 }
 
+.semiactive {
+  color: #f5b145;
+}
+
+.semiactive:hover {
+  color: #f4cb5a;
+}
+
 #footer {
 	max-width: 900px;
 	color: #646464;
@@ -237,18 +248,30 @@ h4 {
 	opacity: 0.7;
 }
 
-.project-icon:hover {
+.project-link:hover .project-icon{
 	background-color: #f1c13f;
 	opacity: 1;
 }
 
 .project-description {
 	font-weight: 100;
-	font-size: 27px;
+  font size: 23px;
+  padding-top: 7px;
+/*	font-size: 16px;
+  font-weight: normal;
+  font-family: "Open Sans";*/
 }
 
 .project-description > b {
   font-weight: normal;
+}
+
+.project-link {
+  color: #9b9595;
+}
+
+.project-link:hover {
+  color: #646464;
 }
 
 .intro {
@@ -359,6 +382,43 @@ h4 {
 
 #about-interests {
   margin-bottom: 30px;
+}
+
+/* projects pages specific */
+
+#back-button-container {
+  max-width: 940px;
+  max-height: 0;
+  right: 100px;
+}
+
+#back-button {
+  padding-top: 35px;
+}
+
+#back-text {
+  padding-left: 10px;
+}
+
+#projectheader {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+#projecthead0 {
+  font-style: italic;
+  font-size: 30px;
+}
+
+#projecthead1 {
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+#projectmain {
+
 }
 
 @media (min-width: 992px) {
