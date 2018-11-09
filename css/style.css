@@ -132,6 +132,7 @@ b {
   font-weight: bold;
 }
 
+
 i:hover {
 	color: #9b9595;
 }
@@ -177,6 +178,8 @@ h4 {
   color: #646464;
   font-size: 30px;
 }
+
+
 
 #main {
 	max-width: 800px;
@@ -419,6 +422,83 @@ h4 {
 
 #projectmain {
 
+}
+
+/*.blockquote {
+  font-size: 26px;
+  line-height: 26px;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+  margin-left: 0;
+}
+
+.quote {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.indented-list {
+  text-align: left;
+  margin-left: 50px;
+}*/
+
+
+.quote-box{
+    
+    overflow: hidden;
+    
+}
+
+.quotation-mark{
+    margin-top: 23px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size:100px;
+    font-family: "Times New Roman", Georgia, Serif;
+    
+}
+
+.quote-text{
+    margin-left: 30px ;
+    font-size: 26px;  
+    line-height: 26px;
+}
+
+.indented-list {
+  margin-left: 50px;
+}
+
+.blockquote-footer {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.footer-tag {
+  color: #b3b3b3
+}
+
+.figure {
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.figure-caption{
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: #9b9595
+}
+
+.figure-img {
+  margin:auto;
+  max-width: 90%;
 }
 
 @media (min-width: 992px) {
