@@ -315,38 +315,8 @@ h4 {
   padding: 30px;
 }
 
-.tag {
-  background: #ffecba;
-  color: #f5b145;
-  display: inline;
-  font-size: 20px;
-  height: 30px;
-  left: 0;
-  line-height: 20px;
-  margin: 10px;
-  padding: 0 10px 0 15px;
-  position: relative;
-  top: 0;
-  display: inline-flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-right: 200px;'
-}
 
-.tag:before {
-  border-bottom: 15px transparent solid;
-  border-right: 12px #ffecba solid;
-  border-top: 15px transparent solid;
-  content: '';
-  height: 0;
-  left: -12px;
-  position: absolute;
-  top: 0;
-  width: 0;
-
-}
-
-.tag-grey {
+.tag-grey{
   background: #a5a5a5;
   color: #ffffff;
   display: inline;
@@ -376,6 +346,7 @@ h4 {
   top: 0;
   width: 0;
 }
+
 
 .light-title {
   margin-bottom: 5px;
