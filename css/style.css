@@ -80,7 +80,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    z-index: -1;
+    z-index: -2;
 }
 
 #bg-back {
@@ -93,9 +93,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    z-index: -2;
+    z-index: -3;
 }
 
+
+#bg-hide {
+  height: 100%;
+  width: 100%;
+  background-color: #f6f5f5;
+  position: fixed;
+  z-index: -1;
+}
 
 html {
 	height: 100%;
